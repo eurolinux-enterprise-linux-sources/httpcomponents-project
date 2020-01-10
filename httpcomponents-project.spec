@@ -1,7 +1,7 @@
 Name:              httpcomponents-project
 Summary:           Common POM file for HttpComponents
 Version:           6
-Release:           3%{?dist}
+Release:           4%{?dist}
 Group:             Development/Libraries
 License:           ASL 2.0
 URL:               http://hc.apache.org/
@@ -38,6 +38,9 @@ use it as runtime requirement.
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 6-4
+- Mass rebuild 2013-12-27
+
 * Wed Feb 06 2013 Java SIG <java-devel@lists.fedoraproject.org> - 6-3
 - Update for https://fedoraproject.org/wiki/Fedora_19_Maven_Rebuild
 - Replace maven BuildRequires with maven-local
